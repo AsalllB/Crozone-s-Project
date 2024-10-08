@@ -1,0 +1,101 @@
+body {
+  direction: rtl;
+}
+header img {
+  vertical-align: middle;
+  width: 2%;
+}
+header a {
+  vertical-align: bottom;
+}
+.signup-form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 30%;
+}
+a {
+  text-decoration: none;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 270px;
+}
+
+.name {
+  margin: 5% 0% 0% 10%;
+  font-size: 13px;
+}
+.input input {
+  height: 10%;
+  border-radius: 19px;
+  padding-right: 12px;
+}
+.Conditions {
+  margin: 5% 0% 5% 10%;
+  font-size: 13px;
+}
+.button button {
+  width: 110px;
+  height: 35px;
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+.login {
+  margin: 2% 0%;
+  font-size: 13px;
+}
+
+ @media (max-width: 750px) { 
+  header {
+    font-size: 32px;
+  }
+  header img {
+    vertical-align: middle;
+    width: 5%;
+  }
+  header a {
+    vertical-align: bottom;
+  }
+  .signup-form {
+    width: 90%;
+    margin: 5%;
+  }
+  .name p {
+    margin: 2%;
+    font-size: 40px;
+  }
+  .input {
+    height: 750px;
+  }
+  .input input {
+    height: 15%;
+    border-radius: 150px;
+    padding-right: 30px;
+    font-size: 30px;
+  }
+  .Conditions {
+    margin: 5%;
+    font-size: 30px;
+  }
+  .button button {
+    width: 170px;
+    height: 60px;
+
+    border-radius: 32px;
+    font-size: 32px;
+  }
+  .login {
+    font-size: 27px;
+  }
+}
